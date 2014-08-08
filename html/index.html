@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="Ingress: Resistance Victoria, Australia." property="og:title">
+    <meta content="http://make.vic.blue/images/resistance.png" property="og:image">
+    <meta content="website" property="og:type">
+    <meta content="http://make.vic.blue/" property="og:url">
+    <script>
+      var isMobile = {
+	Android: function() {
+	    return /Android/i.test(navigator.userAgent);
+	},
+	iOS: function() {
+	    return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+	},
+	any: function() {
+	    return (isMobile.Android() || isMobile.iOS());
+	}
+      };
+
+      if (isMobile.Android()) {
+        window.location.replace("https://play.google.com/store/apps/details?id=com.nianticproject.ingress");
+      } else if (isMobile.iOS()) {
+        window.location.replace("https://itunes.apple.com/au/app/ingress/id576505181?mt=8&uo=4");
+      } else {
+        window.location.replace("http://vic.blue/");
+      }
+    </script>
+
+  </head>
+
+  <body>
+<pre>
+______________    ______________
+||xxxxxxxxxx/  __  \xxxxxxxxxx||
+||            //\\            ||
+||  |XXXXXXXXX(  )XXXXXXXXX|  ||   ALERT:  AGENT JAVASCRIPT FAILURE
+||  |X        \\//        X|  ||   ================================
+||  |X\.       ^^       ./X|  ||
+||    \XX\.          ./XX/    ||
+||      ^\XX\./xx\./XX/^      ||   YOU DO NOT APPEAR TO HAVE JAVASCRIPT
+||         ^\XXXXXX/^         ||   PLEASE VISIT <a href="http://vic.blue">VIC.BLUE</a> FOR FURTHER
+||            |XX|            ||   INSTRUCTION
+||           (XXXX)           ||
+||            |XX|            ||
+||            |XX|            ||
+||      _____ |XX|            ||
+||      |XXX| |XX|            ||
+||      |X____|XX|            ||
+\\\     |XXXXXXXX|           ///
+  \\\   ^\XXXXXXX|         ///
+    \\\   ^\| |XX|       ///
+      \\\     |XX|     ///
+        \\\    \/    ///
+          \\\      ///
+            \\\__///
+              \\//
+</pre>
+  </body>
+</html>
