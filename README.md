@@ -1,7 +1,7 @@
 # make.vic.blue
 
 URL that redirects phones and tablets to respective app store page, other devices
-get redirected to http://vic.blue
+get a message saying unsupported hardware for scanner software.
 
 ## How to deploy
 
